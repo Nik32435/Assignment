@@ -1,0 +1,50 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add your custom styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.home, .products {
+    margin-bottom: 40px;
+}
+
+.product-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.product-image {
+    max-width: 45%;
+    /* Add more styling for product images */
+}
+
+.product-details {
+    max-width: 45%;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    text-align: center;
+}
